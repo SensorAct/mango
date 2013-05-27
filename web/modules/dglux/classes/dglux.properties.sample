@@ -1,0 +1,7 @@
+publicUser.username=dgGuest
+publicUser.password=dgGuest
+publicUser.email=dgGuest@yourMangoDomain.com
+
+# The unique id of this instance of DGLux. If not present, a value will be generated and saved into the database for
+# subsequent starts.
+productId=

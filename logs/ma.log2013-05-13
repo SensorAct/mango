@@ -1,0 +1,794 @@
+INFO  2013-05-13 11:45:41,119 (com.serotonin.util.properties.ReloadingProperties.checkForReload:142) - (env) Found updated file(s) at [/home/romil/Mango/classes/env.properties]. Reloading properties 
+WARN  2013-05-13 11:45:41,252 (com.serotonin.m2m2.Main.getProperties:607) - Module /home/romil/Mango/web/modules/_save: module.properties not found in module directory. Module not loaded. 
+INFO  2013-05-13 11:45:41,956 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'internal', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,009 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'reports', v2.0.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,039 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'scheduledEvents', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,046 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'dglux', v1.0.3 by Infinite Automation Systems Inc. 
+INFO  2013-05-13 11:45:42,047 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'graphicalViews', v1.4.1 by Serotonin Software 
+INFO  2013-05-13 11:45:42,202 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'virtualDS', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,230 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'watchlists', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,269 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'pointLinks', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 11:45:42,284 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'dojo', v1.7.3 by Serotonin Software 
+INFO  2013-05-13 11:45:42,291 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'sstGraphics', v1.0.1 by Serotonin Software 
+INFO  2013-05-13 11:45:43,049 (com.serotonin.m2m2.db.DerbyProxy.initializeImpl:56) - Initializing derby connection manager 
+INFO  2013-05-13 11:45:45,296 (com.serotonin.m2m2.db.upgrade.DBUpgrade.checkUpgrade:36) - Starting instance with core version 2.0.6, db 7 
+INFO  2013-05-13 11:45:46,390 (com.serotonin.m2m2.rt.RuntimeManager.initializeDataSource:280) - Data source 'Virtdata' initialized 
+INFO  2013-05-13 11:45:48,232 (com.serotonin.m2m2.web.M2M2ContextListener.contextInitialized:31) - Mango Automation context starting 
+INFO  2013-05-13 11:45:48,243 (com.serotonin.m2m2.web.M2M2ContextListener.contextInitialized:39) - Mango Automation context started 
+INFO  2013-05-13 11:45:48,631 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/users.shtm] onto handler 'usersController' 
+INFO  2013-05-13 11:45:48,642 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/modules.shtm] onto handler 'modulesController' 
+INFO  2013-05-13 11:45:48,642 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/point_hierarchy.shtm] onto handler 'pointHierarchyController' 
+INFO  2013-05-13 11:45:48,643 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/emport.shtm] onto handler 'emportController' 
+INFO  2013-05-13 11:45:48,654 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/publisher_edit.shtm] onto handler 'publisherEditController' 
+INFO  2013-05-13 11:45:48,683 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/login.htm] onto handler 'loginController' 
+INFO  2013-05-13 11:45:48,683 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_sources.shtm] onto handler 'dataSourceListController' 
+INFO  2013-05-13 11:45:48,684 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mailing_lists.shtm] onto handler 'mailingListsController' 
+INFO  2013-05-13 11:45:48,685 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/event_handlers.shtm] onto handler 'eventHandlersController' 
+INFO  2013-05-13 11:45:48,695 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/webcam_live_feed.htm] onto handler 'webcamLiveFeedController' 
+INFO  2013-05-13 11:45:48,713 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_point_edit.shtm] onto handler 'dataPointEditController' 
+INFO  2013-05-13 11:45:48,714 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/system_settings.shtm] onto handler 'systemSettingsController' 
+INFO  2013-05-13 11:45:48,725 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_source_edit.shtm] onto handler 'dataSourceEditController' 
+INFO  2013-05-13 11:45:48,726 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/events.shtm] onto handler 'eventsController' 
+INFO  2013-05-13 11:45:48,727 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/publishers.shtm] onto handler 'publisherListController' 
+INFO  2013-05-13 11:45:48,727 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/help.shtm] onto handler 'helpController' 
+INFO  2013-05-13 11:45:48,739 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_point_details.shtm] onto handler 'dataPointDetailsController' 
+INFO  2013-05-13 11:45:48,740 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/logout.htm] onto handler 'logoutController' 
+INFO  2013-05-13 11:45:49,243 (com.serotonin.m2m2.web.dwr.util.BlabberConverterManager.addConverter:61) - Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only an problem if you wanted to use it. 
+INFO  2013-05-13 11:45:49,243 (com.serotonin.m2m2.web.dwr.util.BlabberConverterManager.addConverter:61) - Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only an problem if you wanted to use it. 
+INFO  2013-05-13 11:45:49,374 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/reportChart.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,374 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/reports.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,374 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/scheduled_events.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,375 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/dglux.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,376 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/dglux/login.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,377 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/views.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,378 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/public_view.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,379 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/view_edit.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,380 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/watch_list.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,381 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/login.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,382 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/watch_list.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,383 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/logout.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,384 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/point_links.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 11:45:49,396 (com.serotonin.util.properties.ReloadingProperties.checkForReload:142) - (dglux) Found updated file(s) at [/home/romil/Mango/web/modules/dglux/classes/dglux.properties]. Reloading properties 
+ERROR 2013-05-13 11:46:10,494 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 11:50:13,007 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 11:50:39,492 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 11:50:51,641 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 12:03:21,049 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 12:06:03,478 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+INFO  2013-05-13 12:24:48,785 (com.serotonin.m2m2.rt.RuntimeManager.stopDataSource:308) - Data source 'Virtdata' stopped 
+INFO  2013-05-13 12:24:48,786 (com.serotonin.m2m2.db.DerbyProxy.terminate:76) - Stopping database 
+INFO  2013-05-13 12:30:36,027 (com.serotonin.util.properties.ReloadingProperties.checkForReload:142) - (env) Found updated file(s) at [/home/romil/Mango/classes/env.properties]. Reloading properties 
+INFO  2013-05-13 12:30:36,127 (com.serotonin.m2m2.Main.openZipFiles:137) - Installing module modbus 
+INFO  2013-05-13 12:30:36,209 (com.serotonin.m2m2.Main.openZipFiles:137) - Installing module vmstat 
+WARN  2013-05-13 12:30:36,229 (com.serotonin.m2m2.Main.getProperties:607) - Module /home/romil/Mango/web/modules/_save: module.properties not found in module directory. Module not loaded. 
+INFO  2013-05-13 12:30:36,402 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'internal', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,407 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'reports', v2.0.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,414 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'scheduledEvents', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,419 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'dglux', v1.0.3 by Infinite Automation Systems Inc. 
+INFO  2013-05-13 12:30:36,420 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'graphicalViews', v1.4.1 by Serotonin Software 
+INFO  2013-05-13 12:30:36,427 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'virtualDS', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,432 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'modbus', v1.4.2 by Serotonin Software 
+INFO  2013-05-13 12:30:36,438 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'watchlists', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,444 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'vmstat', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,448 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'pointLinks', v1.4.0 by Serotonin Software 
+INFO  2013-05-13 12:30:36,457 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'dojo', v1.7.3 by Serotonin Software 
+INFO  2013-05-13 12:30:36,458 (com.serotonin.m2m2.Main.loadModules:371) - Loading module 'sstGraphics', v1.0.1 by Serotonin Software 
+INFO  2013-05-13 12:30:36,773 (com.serotonin.m2m2.db.DerbyProxy.initializeImpl:56) - Initializing derby connection manager 
+INFO  2013-05-13 12:30:38,152 (com.serotonin.m2m2.db.upgrade.DBUpgrade.checkUpgrade:36) - Starting instance with core version 2.0.6, db 7 
+INFO  2013-05-13 12:30:38,998 (com.serotonin.m2m2.rt.RuntimeManager.initializeDataSource:280) - Data source 'Virtdata' initialized 
+INFO  2013-05-13 12:30:39,915 (com.serotonin.m2m2.web.M2M2ContextListener.contextInitialized:31) - Mango Automation context starting 
+INFO  2013-05-13 12:30:39,916 (com.serotonin.m2m2.web.M2M2ContextListener.contextInitialized:39) - Mango Automation context started 
+INFO  2013-05-13 12:30:40,233 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/users.shtm] onto handler 'usersController' 
+INFO  2013-05-13 12:30:40,248 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/modules.shtm] onto handler 'modulesController' 
+INFO  2013-05-13 12:30:40,249 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/point_hierarchy.shtm] onto handler 'pointHierarchyController' 
+INFO  2013-05-13 12:30:40,249 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/emport.shtm] onto handler 'emportController' 
+INFO  2013-05-13 12:30:40,264 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/publisher_edit.shtm] onto handler 'publisherEditController' 
+INFO  2013-05-13 12:30:40,299 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/login.htm] onto handler 'loginController' 
+INFO  2013-05-13 12:30:40,300 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_sources.shtm] onto handler 'dataSourceListController' 
+INFO  2013-05-13 12:30:40,301 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mailing_lists.shtm] onto handler 'mailingListsController' 
+INFO  2013-05-13 12:30:40,302 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/event_handlers.shtm] onto handler 'eventHandlersController' 
+INFO  2013-05-13 12:30:40,316 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/webcam_live_feed.htm] onto handler 'webcamLiveFeedController' 
+INFO  2013-05-13 12:30:40,340 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_point_edit.shtm] onto handler 'dataPointEditController' 
+INFO  2013-05-13 12:30:40,341 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/system_settings.shtm] onto handler 'systemSettingsController' 
+INFO  2013-05-13 12:30:40,356 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_source_edit.shtm] onto handler 'dataSourceEditController' 
+INFO  2013-05-13 12:30:40,358 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/events.shtm] onto handler 'eventsController' 
+INFO  2013-05-13 12:30:40,359 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/publishers.shtm] onto handler 'publisherListController' 
+INFO  2013-05-13 12:30:40,360 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/help.shtm] onto handler 'helpController' 
+INFO  2013-05-13 12:30:40,377 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/data_point_details.shtm] onto handler 'dataPointDetailsController' 
+INFO  2013-05-13 12:30:40,379 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/logout.htm] onto handler 'logoutController' 
+INFO  2013-05-13 12:30:40,736 (com.serotonin.m2m2.web.dwr.util.BlabberConverterManager.addConverter:61) - Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only an problem if you wanted to use it. 
+INFO  2013-05-13 12:30:40,737 (com.serotonin.m2m2.web.dwr.util.BlabberConverterManager.addConverter:61) - Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only an problem if you wanted to use it. 
+INFO  2013-05-13 12:30:40,817 (com.serotonin.m2m2.Lifecycle.configureDwr:631) - Duplicate definition of DWR class ignored: com.serotonin.m2m2.modbus.dwr.ModbusEditDwr 
+INFO  2013-05-13 12:30:40,869 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/reportChart.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,869 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/reports.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,869 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/scheduled_events.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,870 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/dglux.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,871 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/dglux/login.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,872 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/views.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,873 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/public_view.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,875 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/view_edit.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,876 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/watch_list.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,877 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/login.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,879 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/watch_list.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,880 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/mobile/logout.htm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,880 (org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler:411) - Mapped URL path [/point_links.shtm] onto handler of type [class com.serotonin.m2m2.web.mvc.UrlHandlerController] 
+INFO  2013-05-13 12:30:40,896 (com.serotonin.util.properties.ReloadingProperties.checkForReload:142) - (dglux) Found updated file(s) at [/home/romil/Mango/web/modules/dglux/classes/dglux.properties]. Reloading properties 
+ERROR 2013-05-13 12:30:47,469 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 12:32:05,981 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 12:32:10,552 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+INFO  2013-05-13 12:32:18,245 (com.serotonin.m2m2.rt.RuntimeManager.initializeDataSource:280) - Data source 'VMSATAT' initialized 
+ERROR 2013-05-13 12:32:22,526 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+WARN  2013-05-13 12:42:07,048 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:31 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,100 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:55 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:53 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:52 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:49 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:51 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:49 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,096 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:49 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,095 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:47 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,095 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:46 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,094 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:45 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,094 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:45 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,094 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:44 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,093 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:42 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,092 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:41 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,091 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:39 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,091 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:39 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,091 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:38 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,090 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:38 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,079 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:36 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,076 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:35 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,076 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:34 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,053 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:33 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,049 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:10:32 aborted because a previous poll started at 2013/05/13 07:10:30 is still running 
+WARN  2013-05-13 12:42:07,130 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:12:07 aborted because a previous poll started at 2013/05/13 07:12:07 is still running 
+WARN  2013-05-13 12:42:07,129 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:12:07 aborted because a previous poll started at 2013/05/13 07:12:07 is still running 
+WARN  2013-05-13 12:42:07,129 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:12:07 aborted because a previous poll started at 2013/05/13 07:12:07 is still running 
+WARN  2013-05-13 12:42:07,129 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:12:01 aborted because a previous poll started at 2013/05/13 07:12:01 is still running 
+WARN  2013-05-13 12:42:07,128 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:27 aborted because a previous poll started at 2013/05/13 07:11:52 is still running 
+WARN  2013-05-13 12:42:07,128 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:49 aborted because a previous poll started at 2013/05/13 07:11:52 is still running 
+WARN  2013-05-13 12:42:07,128 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:52 aborted because a previous poll started at 2013/05/13 07:11:52 is still running 
+WARN  2013-05-13 12:42:07,128 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:49 aborted because a previous poll started at 2013/05/13 07:11:52 is still running 
+WARN  2013-05-13 12:42:07,126 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:24 aborted because a previous poll started at 2013/05/13 07:11:27 is still running 
+WARN  2013-05-13 12:42:07,125 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:18 aborted because a previous poll started at 2013/05/13 07:11:18 is still running 
+WARN  2013-05-13 12:42:07,116 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:11:09 aborted because a previous poll started at 2013/05/13 07:11:09 is still running 
+ERROR 2013-05-13 12:48:57,681 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+ERROR 2013-05-13 13:07:09,792 (com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter:38) - DWR invocation exception 
+java.lang.IllegalArgumentException: The datetime zone id is not recognised: Asia/Kolkata
+	at org.joda.time.DateTimeZone.forID(DateTimeZone.java:198)
+	at com.serotonin.m2m2.vo.User.getDateTimeZoneInstance(User.java:386)
+	at com.serotonin.m2m2.Common.getUserDateTimeZone(Common.java:285)
+	at com.serotonin.m2m2.web.dwr.BaseDwr.getDateRangeDefaults(BaseDwr.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.TranslationsFilter.doFilter(TranslationsFilter.java:37)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:26)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.m2m2.web.dwr.util.DwrPermissionFilter.doFilter(DwrPermissionFilter.java:38)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:538)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:517)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:225)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:937)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:406)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:871)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:346)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1065)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:823)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:411)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:679)
+WARN  2013-05-13 13:16:53,110 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:42:49 aborted because a previous poll started at 2013/05/13 07:42:49 is still running 
+WARN  2013-05-13 13:16:53,112 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:02 aborted because a previous poll started at 2013/05/13 07:43:02 is still running 
+WARN  2013-05-13 13:16:53,114 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:09 aborted because a previous poll started at 2013/05/13 07:43:09 is still running 
+WARN  2013-05-13 13:16:53,116 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:19 aborted because a previous poll started at 2013/05/13 07:43:19 is still running 
+WARN  2013-05-13 13:16:53,116 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:23 aborted because a previous poll started at 2013/05/13 07:43:23 is still running 
+WARN  2013-05-13 13:16:53,118 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:41 aborted because a previous poll started at 2013/05/13 07:43:41 is still running 
+WARN  2013-05-13 13:16:53,117 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:39 aborted because a previous poll started at 2013/05/13 07:43:39 is still running 
+WARN  2013-05-13 13:16:53,117 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:39 aborted because a previous poll started at 2013/05/13 07:43:39 is still running 
+WARN  2013-05-13 13:16:53,117 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:32 aborted because a previous poll started at 2013/05/13 07:43:29 is still running 
+WARN  2013-05-13 13:16:53,116 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:23 aborted because a previous poll started at 2013/05/13 07:43:23 is still running 
+WARN  2013-05-13 13:16:53,120 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:43:53 aborted because a previous poll started at 2013/05/13 07:43:53 is still running 
+WARN  2013-05-13 13:16:53,120 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:44:01 aborted because a previous poll started at 2013/05/13 07:44:01 is still running 
+WARN  2013-05-13 13:16:53,125 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:44:13 aborted because a previous poll started at 2013/05/13 07:44:13 is still running 
+WARN  2013-05-13 13:16:53,134 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:44:50 aborted because a previous poll started at 2013/05/13 07:44:50 is still running 
+WARN  2013-05-13 13:16:53,136 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:02 aborted because a previous poll started at 2013/05/13 07:45:02 is still running 
+WARN  2013-05-13 13:16:53,137 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:14 aborted because a previous poll started at 2013/05/13 07:45:14 is still running 
+WARN  2013-05-13 13:16:53,138 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:25 aborted because a previous poll started at 2013/05/13 07:45:25 is still running 
+WARN  2013-05-13 13:16:53,138 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:29 aborted because a previous poll started at 2013/05/13 07:45:29 is still running 
+WARN  2013-05-13 13:16:53,138 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:29 aborted because a previous poll started at 2013/05/13 07:45:29 is still running 
+WARN  2013-05-13 13:16:53,138 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:29 aborted because a previous poll started at 2013/05/13 07:45:29 is still running 
+WARN  2013-05-13 13:16:53,141 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:40 aborted because a previous poll started at 2013/05/13 07:45:40 is still running 
+WARN  2013-05-13 13:16:53,142 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:45:52 aborted because a previous poll started at 2013/05/13 07:45:52 is still running 
+WARN  2013-05-13 13:16:53,143 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:04 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,174 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:36 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,165 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:24 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,163 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:24 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,163 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:24 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,163 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:22 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,163 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:22 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,163 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:22 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,157 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:15 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,154 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:18 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,154 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:17 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,154 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:17 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,153 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:15 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:12 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:13 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:12 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:11 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:11 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:11 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:10 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:10 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:10 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:04 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:04 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,151 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:04 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,208 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:53 aborted because a previous poll started at 2013/05/13 07:46:53 is still running 
+WARN  2013-05-13 13:16:53,175 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:36 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,176 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:36 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:16:53,175 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 07:46:36 aborted because a previous poll started at 2013/05/13 07:46:04 is still running 
+WARN  2013-05-13 13:53:19,100 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:17:55 aborted because a previous poll started at 2013/05/13 08:17:55 is still running 
+WARN  2013-05-13 13:53:19,100 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:17:58 aborted because a previous poll started at 2013/05/13 08:17:58 is still running 
+WARN  2013-05-13 13:53:19,104 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:09 aborted because a previous poll started at 2013/05/13 08:18:09 is still running 
+WARN  2013-05-13 13:53:19,105 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:16 aborted because a previous poll started at 2013/05/13 08:18:16 is still running 
+WARN  2013-05-13 13:53:19,105 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:12 aborted because a previous poll started at 2013/05/13 08:18:12 is still running 
+WARN  2013-05-13 13:53:19,105 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:20 aborted because a previous poll started at 2013/05/13 08:18:20 is still running 
+WARN  2013-05-13 13:53:19,111 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:30 aborted because a previous poll started at 2013/05/13 08:18:30 is still running 
+WARN  2013-05-13 13:53:19,112 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:43 aborted because a previous poll started at 2013/05/13 08:18:43 is still running 
+WARN  2013-05-13 13:53:19,112 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:18:43 aborted because a previous poll started at 2013/05/13 08:18:43 is still running 
+WARN  2013-05-13 13:53:19,123 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:09 aborted because a previous poll started at 2013/05/13 08:19:09 is still running 
+WARN  2013-05-13 13:53:19,125 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:19 aborted because a previous poll started at 2013/05/13 08:19:19 is still running 
+WARN  2013-05-13 13:53:19,130 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:56 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:57 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,134 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:20:18 aborted because a previous poll started at 2013/05/13 08:20:18 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:58 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:59 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,131 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:19:57 aborted because a previous poll started at 2013/05/13 08:19:51 is still running 
+WARN  2013-05-13 13:53:19,136 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:20:28 aborted because a previous poll started at 2013/05/13 08:20:28 is still running 
+WARN  2013-05-13 13:53:19,136 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:20:28 aborted because a previous poll started at 2013/05/13 08:20:28 is still running 
+WARN  2013-05-13 13:53:19,132 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:20:04 aborted because a previous poll started at 2013/05/13 08:20:04 is still running 
+WARN  2013-05-13 13:53:19,142 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:20:42 aborted because a previous poll started at 2013/05/13 08:20:42 is still running 
+WARN  2013-05-13 13:53:19,145 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:09 aborted because a previous poll started at 2013/05/13 08:21:09 is still running 
+WARN  2013-05-13 13:53:19,146 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:23 aborted because a previous poll started at 2013/05/13 08:21:23 is still running 
+WARN  2013-05-13 13:53:19,147 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:36 aborted because a previous poll started at 2013/05/13 08:21:36 is still running 
+WARN  2013-05-13 13:53:19,148 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:49 aborted because a previous poll started at 2013/05/13 08:21:49 is still running 
+WARN  2013-05-13 13:53:19,148 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:54 aborted because a previous poll started at 2013/05/13 08:21:54 is still running 
+WARN  2013-05-13 13:53:19,149 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:21:54 aborted because a previous poll started at 2013/05/13 08:21:54 is still running 
+WARN  2013-05-13 13:53:19,149 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:07 aborted because a previous poll started at 2013/05/13 08:22:07 is still running 
+WARN  2013-05-13 13:53:19,150 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:07 aborted because a previous poll started at 2013/05/13 08:22:07 is still running 
+WARN  2013-05-13 13:53:19,150 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:23 aborted because a previous poll started at 2013/05/13 08:22:23 is still running 
+WARN  2013-05-13 13:53:19,152 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:43 aborted because a previous poll started at 2013/05/13 08:22:43 is still running 
+WARN  2013-05-13 13:53:19,153 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:52 aborted because a previous poll started at 2013/05/13 08:22:52 is still running 
+WARN  2013-05-13 13:53:19,153 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:22:35 aborted because a previous poll started at 2013/05/13 08:22:52 is still running 
+WARN  2013-05-13 13:53:19,153 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:04 aborted because a previous poll started at 2013/05/13 08:23:07 is still running 
+WARN  2013-05-13 13:53:19,154 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:09 aborted because a previous poll started at 2013/05/13 08:23:09 is still running 
+WARN  2013-05-13 13:53:19,155 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 
+WARN  2013-05-13 13:53:19,159 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 
+WARN  2013-05-13 13:53:19,159 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 
+WARN  2013-05-13 13:53:19,159 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 
+WARN  2013-05-13 13:53:19,159 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 
+WARN  2013-05-13 13:53:19,158 (com.serotonin.m2m2.rt.dataSource.PollingDataSource.scheduleTimeout:64) - Virtdata: poll at 2013/05/13 08:23:19 aborted because a previous poll started at 2013/05/13 08:23:19 is still running 

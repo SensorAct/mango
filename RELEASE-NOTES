@@ -1,0 +1,114 @@
+*Version 2.0.6*
+
+* Input stream ePoll moved from static reference to Provider runtime reference
+* Changed var names of module script and styles, and added module JSP fragments.
+* Enhanced servlet hook that allows multiple URI mappings to a single servlet.
+* Created flag that indicates a newly installed instance so that modules can handle the condition.
+* New module hooks to allow redirection based upon new instance, first user login, login, not logged in.
+* Added load order attribute to module to determine the order in which modules are loaded.
+* Added HostUtils for modules to be able to discover details about the host platform.
+* Added milliseconds to point history download CSV files.
+* Added close button to point details editing panel.
+* Display the point details beside the line in the point list when editing to avoid having to scroll.
+* Allow modules to open the system setting to a specific section.
+* In module builds: create the lib dir if not present, copy scripts to bin dir, pre-compile JSPs and tags, and added copy-web target for development purposes.
+* Added optional visibility to menu/toolbar items.
+* Removed domain name from license
+
+
+*Version 2.0.5*
+
+* Added module lifecycle call "postDatabase" 
+* Performance improvements when loading points from the database
+* Fix for incorrect 0 values calculated on points with interval averaging upon initialization
+* Added persistence to sound muting so the value is saved between sessions. New users default to being muted.
+* Removed context from user home URL. Not required in MA.
+
+
+*Version 2.0.4*
+
+* Improved ability to upgrade from legacy versions of M2M2
+* Added last and lastValue methods to scripting point wrappers
+* Fix for starts and runtime statistics
+* Added overrides folder to the freemarker email template list.
+
+
+*Version 2.0.3*
+
+* Multiple references to M2M2 changed to MA
+* Allow modules to override dox folders (help documentation)
+* Allow modules to define handler interceptors
+* Allow the dojo URI to be overridden prior to JSP processing 
+
+
+*Version 2.0.2*
+
+* Added overriding of web assets
+* Fixed overriding of properties
+* Split out header and toolbar from page tag
+* Don't allow duplicate points in publishers.
+* Various fixes for chart rendering
+* Set the maximum number of unique IP addresses in free mode to 3
+
+
+*Version 2.0.1*
+
+* Various fixes for chart rendering
+* Fix for events page search where language is not en
+* Time zone handling fixes
+
+
+*Version 2.0.0*
+
+* Added user and system timezone
+* Hierarchical point value purge. Data sources can override the system, and points can override data sources.
+* Individual data source and point exports
+* Allow specification of data source name, xid, and point device name before copying data sources
+* Added publisher cache entry discard limit
+* Added individual table fields for point many point attributes
+* Replaced bootstrap with jar file discovery in the startup script
+* HTTP Components upgraded to version 4.2.1
+* Added script source hook, allowing modules to introduce global EMCAScript functions
+* Allow polling data sources to run from cron pattern
+* Allow setting of point values from within scripts
+* Upgraded Dojo to version 1.7
+* Removed timed shutdown in free mode
+* Added max unique IP addresses (5)
+* Point hierarchy moved from watchlist module to core
+* Upgraded Jetty
+* Upgraded JFreechart
+* Removed bootstrap layer. Startup scripts construct classpath instead.
+* Added lifecycle definition
+* Replaced initialize definition method with preInitialize, postInitialize, preTerminate, and postTerminate.
+* New time series quantization package
+* Improved stats package
+
+
+*Version 1.3.1*
+
+Enhancements:
+* Don't disable data sources when importing data points
+
+Bug fixes:
+* Point deserialization bug fix
+
+
+*Version 1.3.0*
+
+Enhancements:
+* Upgraded many supporting packages
+* Reduced restart request delay to 10 seconds from 60 seconds
+* Removed multiple indices from pointValues table to improve data logging performance
+* Added plot type attribute to data points
+* Made publisher "point missing" error messages more descriptive
+* Added active and idle database connection counts to internal data source
+* Updated supporting libraries
+* Added shared e-poll functionality to Modbus-based data sources
+* Copy the new data source name to the device name of copied points
+* Purge old events even if they have not been ack'ed
+* Added low and high limit values as markers to data point charts
+* Added forced read icon to data point details page. Depends on data source support.
+* Updated copyright date to 2012
+* Cleaner app shutdowns
+
+Bug fixes:

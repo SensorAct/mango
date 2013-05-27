@@ -1,0 +1,48 @@
+I did not check in .classpath .project & module-build.xml files 
+
+
+
+mango login    and dglux button on same page
+DGLUX menu item all users
+
+5 user on core
+
+updated free list from joel
+
+wait...................
+exe and installer for windows
+
+
+Both DGLUX and MA need a "public" user 
+If user exists in DGLUX and not in MA then DGLUX logs into MA as "public"
+
+When someone tries to view a dgml file the "web/dgml/public.nav" file is checked
+If the file is in the public.nav file then you can view it, otherwise you are redirected to the login page
+
+For example:             http://localhost:8084/view.jsp?dgml=dgml/Island.dgml
+Entry in public.nav      <node name="Island_File" icon="file:!packs/icons/d/document.png" ord="file:!dgml/Island.dgml"/>
+
+I put a EXIT button on the view page (lower left corner, scroll down) we can remove it if you want
+
+
+NAV FILE
+<nav version="1.0">
+  <node name="Home" ord="dglux:" icon="file:!packs/icons/d/document-globe.png">
+    <node name="Home" ord="" icon="file:!packs/icons/d/document-globe.png">
+      <node name="Zones Layout1.dgml" icon="file:!packs/icons/d/document.png" ord="file:!dgml/Zones Layout1.dgml"/>
+      <node name="HRV-ERV.dgml" icon="file:!packs/icons/d/document.png" ord="file:!dgml/HRV-ERV.dgml"/>
+    </node>
+  </node>
+</nav>
+postgres://logzioygyj:PdCCCauKvPHBYbafY8dV@ec2-23-23-217-154.compute-1.amazonaws.com/logzioygyj
+
+
+{"DGLuxRequest": {
+ "Method": {
+  "name": "GetNodeList",
+  "path": "/"
+ },
+ "session": "16hnwo9ujg5m"
+}}
+
+

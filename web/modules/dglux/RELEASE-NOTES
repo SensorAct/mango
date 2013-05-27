@@ -1,0 +1,23 @@
+*Version 1.0.3*
+
+* Fix for public views
+* Performance improvement: Streaming of XML data to the UI
+* Performance improvement: Prevent database hits on GetValue calls 
+
+
+*Version 1.0.2*
+
+* Updated dglux.swf file to revision 10692
+* Fixed Data Action Behavior bug
+* Fixed Binding from User Name bug
+
+
+*Version 1.0.1*
+
+* Added login page directly from DGLux
+* Added debug logging messages for invalid data requests
+
+
+*Version 1.0.0*
+
+* Initial release
